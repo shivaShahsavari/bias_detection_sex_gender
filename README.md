@@ -6,6 +6,7 @@ One of a few researches in this concept was done in Standford University at 2018
 
 <imge src="image/CNN_architecture_topic_classification.png" height=300 width=500>
 
-In this project, we also implemented the same **CNN architecture with kernel size=2,3,4,5**  
+In this project, we also implemented the same **CNN architecture with kernel size=2,3,4,5**
+for Embedding data we applied Common Crawl (840B tokens, 2.2M vocab, cased, 300d vectors) in this link: https://nlp.stanford.edu/projects/glove/
 Python libraries used in this project : **Numpy, Pands, sklearn, NLTK, Keras, Tensorflow**  
 In each 10 traning epochs, separate precisions and recalls are calculated by callback and at the end, F1 measure is calculated by mean of all precisions and recalls.
